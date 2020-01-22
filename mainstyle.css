@@ -1,0 +1,174 @@
+body {
+    font-family: 'Poiret One', Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#error {
+    color: red;
+}
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #353531;
+  }
+  
+#hello .westharden {
+
+    width: 33%;
+}
+
+#hello .lakers {
+
+    width: 27.8%;
+
+}
+
+#hello .greek {
+
+    width: 25.3%;
+
+}
+  
+.nav-left {
+float: left;
+}
+
+.nav-right {
+float: right;
+}
+
+.nav-right a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-left a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+.nav-left a:hover {
+    background-color: black;
+}
+
+.nav-right a:hover {
+    background-color: black;
+}
+
+#home-title {
+    align-content: center;
+    text-align: center;
+}
+
+#hello {
+
+    align-content: center;
+    text-align: center;
+
+}
+
+.wrongcolor {
+    color: black;
+}
+
+#table-head {
+    color:  #353531;
+    font-size: 150%;
+
+}
+
+#players {
+    color:  #d17b05;
+    font-size: 150%;
+}
+
+.list {
+    cursor: pointer;
+
+}
+
+#intro {
+    color: #353531;
+    text-align: center;
+    font-size: 140%;
+    margin: 2% 20%;
+}
+.add-button {
+    background-color: #4CAF50;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #ec4e20;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+@media (max-width:991px){
+    #hello .pic {
+        width: 60%;
+        margin: 5% 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .team {
+        display: none;
+    }
+
+    .min {
+        display: none;
+
+    }
+}
+
+@media (max-width:767px){
+    #hello .pic {
+        width: 85%;
+        margin: 5% 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .position {
+        display: none;
+    }
+
+    .fg3 {
+        display: none;
+    }
+
+    .ft {
+        display: none;
+    }
+
+    .personName {
+        display: none;
+    }
+}
+ 
